@@ -1,0 +1,10 @@
+{
+    "name": "Node.js & JavaScript",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-18",
+    "settings": {},
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "npm install"
+  }
